@@ -41,7 +41,7 @@ Due to other time contraints, I cannot continue to work on react-native-oauth fo
 ## Features
 
 * Isolates the OAuth experience to a few simple methods.
-* Atomatically stores the tokens for later retrieval
+* Automatically stores the tokens for later retrieval
 * Works with many providers and simple to add new providers
 * Works on both Android and iOS
 * Makes calling API methods a snap
@@ -156,7 +156,7 @@ When our app loads up with a request that is coming back from OAuthManager _and_
 
 In order for our app to load through these callbacks, we need to tell our iOS app that we want to load them. In order to do that, we'll have to create some URL schemes to register our app. Some providers require specific schemes (mentioned later).
 
-These URL schemes can be added by navigating to to the `info` panel of our app in Xcode (see screenshot).
+These URL schemes can be added by navigating to the `info` panel of our app in Xcode (see screenshot).
 
 ![](./resources/info-panel.png)
 
